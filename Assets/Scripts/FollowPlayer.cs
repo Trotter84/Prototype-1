@@ -6,10 +6,6 @@ public class FollowPlayer : MonoBehaviour
     public GameObject player;
     private Vector3 cameraOffset = new Vector3(0, 6, -8);
 
-    void Start()
-    {
-        
-    }
 
     void LateUpdate()
     {
