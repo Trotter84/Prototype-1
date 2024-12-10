@@ -752,8 +752,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSpeed: 20
   turnSpeed: 10
-  horizontalInput: 0
-  forwardInput: 0
 --- !u!54 &1277234172
 Rigidbody:
   m_ObjectHideFlags: 0
