@@ -44,7 +44,6 @@ public class PlayerController : MonoBehaviour
         PlayerMovement();
     }
 
-
     void PlayerMovement()
     {
         if (player1)
@@ -65,7 +64,5 @@ public class PlayerController : MonoBehaviour
             transform.Translate(Vector3.forward * playerSpeed * Time.deltaTime * forwardInput);
             transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime * horizontalInput);
         }
-
     }
-
 }
