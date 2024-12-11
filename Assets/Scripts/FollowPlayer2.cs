@@ -1,8 +1,8 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 
-public class FollowPlayer : MonoBehaviour
+
+public class FollowPlayer2 : MonoBehaviour
 {
     public PlayerController player;
     private Vector3 offset;
